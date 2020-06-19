@@ -1,0 +1,17 @@
+Hi there! This is a simple example of an RSA Cryptosystem.
+I learned about it online and was intrigued by how matrices were used, so I decided to make one myself.
+
+In message.txt, please input the message that you would like to encrypt or decrypt.
+
+In nums.txt, please input two prime numbers; one on each line.
+This will be your "encryption key".
+
+After completing these two steps, run RSA_CryptoSystem.py.
+It will ask you whether you would like to Encrypt or Decrypt, so please answer accordingly.
+Note that in order to accurately decrypt a message, you must be using the same key that you used to encrypt it.
+
+Once RSA_CryptoSystem is done, your ouput will be displayed in output.txt.
+
+Have fun!
+
+Created in 2020.

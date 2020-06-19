@@ -1,0 +1,12 @@
+Hi there! This is a C++ AI Connect Four game I created at my school's local hackathon.
+
+In this game, you play against an AI that I have coded using the minimax method.
+The difficulty that the user chooses will be how many turns the AI will plan for.
+For example, if the difficulty is 3, then the AI will try all possibilities for the next three turns.
+As of right now, the difficulty is limited to 4. (Level 5 takes too long for the progam)
+
+Have fun!
+
+(Note that I have not error-proofed this code, so please play according to the rules!)
+
+Created at hackBCA V, 2020

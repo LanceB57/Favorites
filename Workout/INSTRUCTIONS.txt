@@ -1,0 +1,20 @@
+Want to do High Intensity Interval Training but have trouble looking at the time while exercising?
+Then this is the python program for you!
+
+I made this program because I personally found it difficult to constantly check my phone for how much time had gone by while I did HIIT.
+
+This program will read out loud your exercise as well as how many seconds you have to do it.
+After that time is up, it will immediately move onto the next.
+
+In order to modify the program to your own workout, simply modify workout.txt in the following format:
+
+(Workout name) (Number of seconds)
+
+For example, the first workout that is filled in workout.txt would be Dumbbell Curls for 60 seconds.
+The program will read this out loud and then read aloud the next workout once those 60 seconds are up.
+
+Please make sure that you have all appropriate libraries downloaded before running workout.py.
+
+Hope this helps you out!
+
+Created in 2020

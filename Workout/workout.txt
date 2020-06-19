@@ -1,0 +1,24 @@
+Dumbbell curl 60
+Jumping jack 30
+Rest 30
+Cable tricep kickback 60
+Jumping jack 30
+Rest 30
+Dumbbell overhead press 60
+Jumping jack 30
+Rest 30
+Hammer curl 60
+Jumping jack 30
+Rest 30
+Overhead tricep extension 60
+Jumping jack 30
+Rest 30
+Seated dumbbell overhead press 60
+Jumping jack 30
+Rest 30
+Half kneeling single arm dumbbell curl to press 30
+Switch 30
+Jumping jack 30
+Rest 30
+Plank 60
+Done 0
