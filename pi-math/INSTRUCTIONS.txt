@@ -8,6 +8,7 @@ Our program in main.py opens a tkinter window where you can perform single-digit
 Draw your first digit in the first box, your symbol in the second (only add, subtract, multiply, and divide),
 and your second digit in the second box. 
 The program will process what you drew and try to predict what you wrote!
+(Only single digit numbers are supported as of right now)
 
 Alternatively to digits, you can also use variables. 
 The supported variables are a, b, c, and d. 
@@ -23,5 +24,9 @@ We used tensorflow and researched a lot ourselves to create the models that allo
 We trained our models using a dataset at: https://www.kaggle.com/xainano/handwrittenmathsymbols
 
 Please make sure you have all appropriate libraries downloaded before running main.py.
+
+Note that this project is called pi-math because we originally planned on having a Raspberry Pi be able to take a picture
+of a problem and solve it itself, but we changed direction pretty early on.
+Still kept the name though!
 
 We hope you enjoy!
