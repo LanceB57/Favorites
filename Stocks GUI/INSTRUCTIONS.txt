@@ -1,26 +1,25 @@
-Hi there! This is a simple tkinter GUI I created to help people keep track of how their stocks are doing
+Hi there! This is a simple tkinter GUI I created to help people keep track of how their stocks are doing.
 
 To get started, please input your info into mystocks.txt in the following format:
 
 (Ticker Symbol) (Stock Price When Invested) (How Much You Invested)
 
-In case that's a little confusing, I put a few examples in mystocks.txt such as Apple (AAPL)
+In case that's a little confusing, I put a few examples in mystocks.txt, such as Apple (AAPL)
 was bought when one stock was worth $350, and a total of $2000 was invested.
 
 After running the program, each of your stock Ticker symbols will show up across the top in orange.
 Immediately underneath, in orange, is how much you initially invested.
-Under that is how much it is currently worth (updates every five seconds)
+Under that is how much it is currently worth (updates every five seconds).
 After that is the percent change.
 Note that green indicates positive/no change and red indicates negative change.
 At the bottom left you'll see what your total worth is currently.
-At the bottom right you'll see when the numbers were last updated.
+At the bottom right you'll see when the prices were last updated.
 
-I'd suggest only using a few stocks, as using too many would make the window quite wide.
+I'd suggest only using a few stocks, as using too many would make the tkinter window quite wide.
 If you would like this to continue to run throughout the day so you can easily check it,
 I suggest running it in Terminal and minimizing your Terminal window.
 
-Note that the yahooquery, tkinter, and datetime libraries are used, so please
-make sure that you have them downloaded.
+Note that the yahooquery, tkinter, and datetime libraries are used, so please make sure that you have them downloaded.
 
 Note that stock splits are not accounted for, so please change your values in mystocks.txt in the event that they happen.
 

@@ -5,19 +5,22 @@ This machine learning project was created by Shay Mor (https://github.com/shay-m
 You can see our original project repository here: https://github.com/shay-m/pi-math
 
 Our program in main.py opens a tkinter window where you can perform single-digit operations. 
-Draw your first digit in the first box, your symbol in the second (only add, subtract, multiply, and divide), and your second digit in the second box. 
+Draw your first digit in the first box, your symbol in the second (only add, subtract, multiply, and divide),
+and your second digit in the second box. 
 The program will process what you drew and try to predict what you wrote!
 
 Alternatively to digits, you can also use variables. 
-The variables are a, b, c, and d. 
+The supported variables are a, b, c, and d. 
 You can assign values to these variables by using the equals symbol (ex: b = 2 makes b equal to 2). 
 Note that the variable a stores the answer of your previous expression (basically "ans" on a TI-84). 
 All variables are initialized with value 0.
+When using variables, make sure to check the box above the window where you drew it!
 
-Please do not try to move the tkinter window around, as this will almost definitely mess up our image-capturing system; still working on a fix!
+Please do not try to move the tkinter window around, as this will almost definitely mess up our image-capturing system.
+Still working on a fix!
 
 We used tensorflow and researched a lot ourselves to create the models that allow this program to work as well as it does. 
-We used a dataset (https://www.kaggle.com/xainano/handwrittenmathsymbols) to train our models.
+We trained our models using a dataset at: https://www.kaggle.com/xainano/handwrittenmathsymbols
 
 Please make sure you have all appropriate libraries downloaded before running main.py.
 
