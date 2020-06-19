@@ -7,6 +7,8 @@ Also please make sure that:
    directory.
 
    2. You have all appropriate libraries downloaded before running.
+   
+   3. You read the INSTRUCTIONS.txt in each directory before running. They'll tell you how the program works!
 
 Hope you enjoy!
 
