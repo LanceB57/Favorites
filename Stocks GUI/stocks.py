@@ -42,7 +42,7 @@ class Application(tk.Frame):
     def update(self):
         tickers = Ticker(self.watchlist)
         prices = tickers.price
-        currtot = [0, 0, 0, 0]
+        currtot = [0] * len(self.watchlist)
         new = [prices[ticker]['regularMarketPrice'] for ticker in tickers.symbols]
         for i in range(len(self.watchlist)):
             self.percentages[i]["text"] = "%.2f%%" % ((new[i] - self.initprices[i]) / self.initprices[i] * 100)
